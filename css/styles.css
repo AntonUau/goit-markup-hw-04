@@ -287,13 +287,22 @@ line-height: 1.5em; /* 150% */
 letter-spacing: 0.02em;
 }
 .title-name {
-display: flex;
-justify-content: center;
-gap: 16px;
-flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
-.svg-name {
-    fill: var(--IRIS, #4D5AE5);
+.icon-name {
+width: 40px;
+height: 40px;
+}
+.link-icon {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .title-three-icon {
     fill: #4D5AE5;
