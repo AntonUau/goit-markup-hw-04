@@ -90,9 +90,23 @@ padding: 188px 0 188px;
     padding-bottom: 120px;
     background-color: #FFFFFF
 }
+.sec-two-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    background: #F4F4FD;
+}
 .description {
 display: flex;
 gap: 24px;
+}
+.project-card {
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
 }
 .description-item {
     width: calc((100% - 72px)/4);
@@ -389,6 +403,11 @@ max-width: 264px;
     padding: 100px 0;
     flex-shrink: 0;
 }
+.container-footer-container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 .logo-link {
     color: #f4f4fd;
     font-family: Raleway;
@@ -446,6 +465,9 @@ display: inline-block;
     background-color: #4D5AE5;
     border-radius: 50%;
     gap: 40px;
+}
+.icon-footer-svg {
+    fill: #F4F4FD;
 }
 .icon-svg:hover,
 .icon-svg:focus {
