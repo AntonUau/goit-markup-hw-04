@@ -403,10 +403,9 @@ max-width: 264px;
     padding: 100px 0;
     flex-shrink: 0;
 }
-.container-footer-container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+.footer-container {
+    display: flex;
+
 }
 .logo-link {
     color: #f4f4fd;
