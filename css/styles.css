@@ -405,6 +405,7 @@ max-width: 264px;
 }
 .footer-container {
     display: flex;
+    align-items: baseline;
 
 }
 .logo-link {
@@ -431,11 +432,10 @@ text-transform: uppercase;
 margin-bottom: 16px;
 display: inline-block;
 }
-.footer-link {
-    margin-right: 156px;
+.footer-logo-text {
+    margin-right: 120px;
 }
 .footer-icon {
-    margin-left: auto;
     font-style: normal;
 }
 .footer-media {
