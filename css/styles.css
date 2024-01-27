@@ -293,7 +293,7 @@ text-transform: capitalize;
     align-items: flex-start;
     gap: 24px;
     padding-bottom: 32px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .name {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -324,6 +324,7 @@ letter-spacing: 0.02em;
     display: flex;
     justify-content: center;
     gap: 24px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-name {
 width: 40px;
