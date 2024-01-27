@@ -187,8 +187,8 @@ text-transform: uppercase;
     align-items: center;
 }
 .nav-link { 
-    color: var(--NAVY-BLUE, #2E2F42);
-    display: flex;
+    color: #404BBF;
+    display: block;
 /* Body Medium */
 font-family: Roboto;
 padding: 24px 0;
