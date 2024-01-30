@@ -75,9 +75,6 @@ margin-right: auto;
 
 }
 .container-one {
-width: 1440px;
-height: 780px;
-flex-shrink: 0;
 margin: 0 auto;
 }
 .sec-one {
@@ -86,8 +83,9 @@ background-image: linear-gradient(var(--GREY, rgba(46, 47, 66, 0.70)),var(--GREY
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
-padding: 188px 0 188px;
+padding: 188px 0;
 max-width: 1440px;
+margin: 0 auto;
 }
 .sec-two {
     padding-top: 120px;
@@ -543,6 +541,13 @@ display: inline-block;
 }
 .title-three {
     padding: 32px 0;
+    gap: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
 }
 
 .img-mark {
