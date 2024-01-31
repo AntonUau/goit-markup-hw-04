@@ -195,11 +195,6 @@ line-height: 1.5; /* 150% */
 letter-spacing: 0.02em;
 text-transform: uppercase;
 }
-.nav-link.link {
-    position: relative;
-    color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .li-navigation {
     display: flex;
